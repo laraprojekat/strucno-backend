@@ -11,6 +11,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.json({
+    status: "Backend radi",
+    endpoints: [
+      "/login",
+      "/admin/users",
+      "/admin/submission/:type/:email",
+      "/generate-all/:type"
+    ]
+  });
+});
+
 const KORISNICI_PATH = path.join(__dirname, 'src', 'korisnici.json');
 const PLANOVI_PATH = path.join(__dirname, 'planovi.json');
 const IZVESTAJI_PATH = path.join(__dirname, 'izvestaji.json');
