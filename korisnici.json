@@ -1,0 +1,6 @@
+[
+  { "email": "larareljaprojekat@gmail.com", "ime": "Admin", "admin": true },
+  { "email": "marija.petrovic@skola.rs", "ime": "Marija Petrović", "admin": false },
+  { "email": "jovan.jovanovic@skola.rs", "ime": "Јован Јовановић", "admin": false },
+  { "email": "ana.nikolic@skola.rs", "ime": "Ана Николић", "admin": false }
+]
