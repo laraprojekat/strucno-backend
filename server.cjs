@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
   });
 });
 
-const KORISNICI_PATH = path.join(__dirname, 'src', 'korisnici.json');
+const KORISNICI_PATH = path.join(__dirname, 'korisnici.json');
 const PLANOVI_PATH = path.join(__dirname, 'planovi.json');
 const IZVESTAJI_PATH = path.join(__dirname, 'izvestaji.json');
 
