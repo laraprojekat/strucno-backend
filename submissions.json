@@ -1,0 +1,60 @@
+{
+  "larareljaprojekat@gmail.com": {
+    "ime": "Admin",
+    "outside": [
+      {
+        "naziv": "Инклузивно образовање у пракси",
+        "kataloski": "519",
+        "bodovi": "8",
+        "kompetencije": "К4"
+      },
+      {
+        "naziv": "Управљање одељењем и дисциплина",
+        "kataloski": "388",
+        "bodovi": "8",
+        "kompetencije": "К1"
+      },
+      {
+        "naziv": "Примена ИКТ у образовању",
+        "kataloski": "611",
+        "bodovi": "24",
+        "kompetencije": "К3"
+      }
+    ],
+    "inside": [
+      {
+        "aktivnost": "Држање угледног или огледног часа, односно активности",
+        "nacin": "Учесник",
+        "datum": "2026-03-05",
+        "bodovi": "2"
+      },
+      {
+        "aktivnost": "Приказ блога, сајта, друштвених мрежа и осталих мултимедијалних садржаја",
+        "nacin": "Реализатор(и)",
+        "datum": "2026-03-21",
+        "bodovi": "8"
+      }
+    ],
+    "submittedAt": "2026-03-25T15:45:29.362Z"
+  },
+  "jovan.jovanovic@skola.rs": {
+    "ime": "Јован Јовановић",
+    "outside": [
+      {
+        "naziv": "Савремени приступи настави математике",
+        "kataloski": "680",
+        "bodovi": "8",
+        "kompetencije": "К2"
+      }
+    ],
+    "inside": [
+      {
+        "aktivnost": "Вођење радионице за наставнике и стручне сараднике",
+        "nacin": "Помоћник реализатора",
+        "datum": "",
+        "bodovi": "6"
+      }
+    ],
+    "submittedAt": "2026-03-20T11:07:42.491Z"
+  }
+}
