@@ -29,7 +29,13 @@ const IZVESTAJI_PATH = path.join(__dirname, 'izvestaji.json');
 
 function loadKorisnici() { return JSON.parse(fs.readFileSync(KORISNICI_PATH, 'utf8')); }
 function load(p) { if (!fs.existsSync(p)) return {}; return JSON.parse(fs.readFileSync(p, 'utf8')); }
-function save(p, d) { fs.writeFileSync(p, JSON.stringify(d, null, 2)); }
+function save(p, d) {
+  try {
+    fs.writeFileSync(p, JSON.stringify(d, null, 2));
+  } catch (err) {
+    console.error("Save error:", err.message);
+  }
+}
 
 function toCyrillic(text) {
     if (!text) return text;
