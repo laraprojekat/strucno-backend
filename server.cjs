@@ -286,7 +286,6 @@ app.get('/generate-all/:type', async (req, res) => {
     res.send(buffer);
 });
 
-const PORT = process.env.PORT || 3001;
 
 const PORT = process.env.PORT || 10000;
 
